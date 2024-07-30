@@ -14,11 +14,13 @@ int main(){
         
         cin >> valores[i];
     }
-    
-    for(int i = 0; i < valores.size(); i++){
-        
-        cout << valores[i];
+
+    int somatorio = 0; 
+     for(int i = 0; i < valores.size(); i++){
+        somatorio = somatorio + valores[i];
     }
-    
+
+    cout << somatorio << endl;
+  
     return 0;
 }
