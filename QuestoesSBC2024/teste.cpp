@@ -8,6 +8,7 @@ int main(){
    
    
     cin >> quant;
+    
    
     for(int i=0; i < quant ; i++){
        
